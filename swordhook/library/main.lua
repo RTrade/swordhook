@@ -914,7 +914,7 @@ function library:CreateWindow(name, size, hidebutton)
 					toggle.BlackOutline.Visible = false
 					toggle.BlackOutline2.Visible = false
 					toggle.Gradient2.Enabled = false
-					toggle.Items.Visible = false
+					
 					toggle.CheckedFrame.Visible = false
 					
 					end
