@@ -909,6 +909,8 @@ function library:CreateWindow(name, size, hidebutton)
 				
 					toggle.Main.BackgroundTransparency = 1
 					toggle.Outline.Visible = false
+					toggle.BlackOutline.Visible = false
+					toggle.BlackOutline2.Visible = false
 					
 					end
                 function toggle:Get() 
