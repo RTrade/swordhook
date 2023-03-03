@@ -907,9 +907,9 @@ function library:CreateWindow(name, size, hidebutton)
                 end
 				function toggle:Init() -- only for colorpickers
 				
-					toggle.CheckedFrame.Visible = false
-					toggle.Items.Visible = false
-					toggle.Label.Visible = false
+					toggle.Main.Visible = false
+					toggle.Outline.Visible = false
+					
 					end
                 function toggle:Get() 
                     return toggle.value
