@@ -906,11 +906,10 @@ function library:CreateWindow(name, size, hidebutton)
                     pcall(toggle.callback, value)
                 end
 				function toggle:Init() -- only for colorpickers
-					for i=1,math.huge do 
-						task.wait(0.05)
+				
 					toggle.CheckedFrame.Visible = false
 					toggle.Items.Visible = false
-						end
+					toggle.Label.Visible = false
 					end
                 function toggle:Get() 
                     return toggle.value
