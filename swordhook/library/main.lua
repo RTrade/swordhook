@@ -899,7 +899,9 @@ function library:CreateWindow(name, size, hidebutton)
                     end
 
                     toggle.value = value
+					if toggle.Main.BackgroundTransparency ~=1 then
                     toggle.CheckedFrame.Visible = value
+						end
                     if toggle.flag and toggle.flag ~= "" then
                         library.flags[toggle.flag] = toggle.value
                     end
