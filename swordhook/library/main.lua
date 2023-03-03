@@ -907,7 +907,7 @@ function library:CreateWindow(name, size, hidebutton)
                 end
 				function toggle:Init() -- only for colorpickers
 				
-					toggle.Main.Visible = false
+					toggle.Main.BackgroundTransparency = 1
 					toggle.Outline.Visible = false
 					
 					end
