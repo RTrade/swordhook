@@ -780,7 +780,7 @@ function library:CreateWindow(name, size, hidebutton)
                     colorpicker.value = colorpicker.default
                     colorpicker.flag = flag or ( (label.Main.Text or "")
 
-                    colorpicker.Main = Instance.new("Frame", label.Main)
+                    colorpicker.Main = Instance.new("Frame", .Items)
                     colorpicker.Main.ZIndex = 6
                     colorpicker.Main.BorderSizePixel = 0
                     colorpicker.Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
